@@ -1,3 +1,5 @@
+import * as assert from "assert";
+
 class Calculator {
   sum(n1: number, n2: number): number {
     return n1 + n2;
@@ -7,6 +9,6 @@ class Calculator {
 describe("calculator", () => {
   it("adds", () => {
     const calculator = new Calculator();
-    expect(calculator.sum(1,4)).toEqual(5)
-  })
+    assert.strictEqual(calculator.sum(1, 4), 5);
+  });
 });
