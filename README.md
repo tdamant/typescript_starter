@@ -1,1 +1,1 @@
-# run ./run.sh to start watching tests
+# ./run.sh to start watching tests
